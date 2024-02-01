@@ -21,18 +21,8 @@ pip install numpy pandas matplotlib scikit-learn
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/mlr-from-scratch.git
-cd mlr-from-scratch
+git clone https://github.com/rahilfaizan/MLR.git
 ```
-
-2. Run the `mlr_from_scratch.py` script:
-
-```bash
-python mlr_from_scratch.py
-```
-
-This will execute the MLR implementation, train the model, and display predictions along with comparison results to scikit-learn's Linear Regression.
-
 ## Dataset
 
 The MLR model is trained on the Lego dataset loaded from the "lego.csv" file. The dataset includes various features such as Pieces, Price, Pages, Unique Pieces, and Amazon Price. Some preprocessing steps are performed, including handling missing values and dropping unnecessary columns.
